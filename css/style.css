@@ -1,0 +1,313 @@
+@import url(./fonts.css);
+
+/*@import url(./partials/variables.css);*/
+
+
+ /*Start Navigation*/
+
+ *{
+  	background-color: white;
+ }
+
+.header_area .main-menu .navbar .navbar-brand{
+padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+	padding: 1rem 10rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+	
+	/*font-family: var(--roboto);*/
+		text-transform: uppercase;
+	 font-family: 'Roboto';
+	padding: 1.7rem;
+	color: black;
+	font-size: 1rem;
+	/*font-weight: 500;*/
+	color: #141313;
+	/*color: var(--title-color);*/
+}
+.header_area .main-menu .navbar-nav .active a{
+	background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+.img-fluid{
+	margin-top: 50px;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+	background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+}
+
+/*End navigation*/
+
+     /*------------------Start Banner Area----------------------*/
+
+
+.site-main .site-banner .site-title h3{
+	content: "";
+    padding-top: 35%;
+    font-weight: 500;
+}
+.site-title{
+padding-left: 0%;
+}
+
+.button{
+	padding: 0.8rem 2.2rem;
+	font: normal 500 16px/20px;
+	font-family: 'roboto';
+  border: 3px solid transparent;
+  border-radius: 4px;
+}
+.button.button-primary{
+	background: linear-gradient(90deg, #4458dc,0%, #854fee 100%);
+	background-clip: padding-box;
+	color: whitesmoke;
+	transition: background.6s ease;
+	box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+.button.button-primary:hover{
+	background: whitesmoke;
+	background-clip: padding-box;
+	color: black;
+	border-color: black;
+}
+
+
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+   height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    transform: translateY(-10);
+ } 
+
+.site-main .site-banner .site-title h1{
+	font-size: 4rem;
+}
+
+.info-list{
+	padding: 10%;
+}
+
+title-text{
+	font: normal bold 50px/72px 'roboto';
+	font-family: 'roboto';
+}
+.trans{
+	color: transparent;
+}
+#secondpart{
+	margin-top: 40%;
+	font-size: 22px;
+	font-family: 'roboto';
+	font-stretch: 20%;
+}
+.border{
+	margin-left: 20;
+}
+
+     /*End Banner Area*/
+
+/*------------------------Start about Area---------------------*/
+
+
+
+.text-uppercase{
+	text-transform: uppercase;
+
+}
+.img-fluid{
+	margin-top: 30%;
+}
+
+.about-image{
+	padding: 6rem 0;
+}
+
+.site-main .about-area{
+	padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+	display: block;
+	font: normal bold 49px/60px;
+	font-family: 'roboto';
+	letter-spacing: 14px;
+}
+.about-title{
+	margin-top: 7%;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+	padding: 1rem 0;
+}
+
+
+p.para{
+	color:  #777777; 
+	font: normal 500 16px/25px;
+	font-family: 'roboto';
+}
+
+/*------------------------End about Area---------------------*/
+
+ /*------------------------Progress Area---------------------*/
+/**{
+	font-family: 'roboto';
+	list-style: none;
+	padding: 0;
+}*/
+.progress{
+	background-color: white;
+	margin-top: 30%;
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto';
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*background: #f1f1f1;*/
+}
+
+.skills{
+  width: 100%;
+  max-width: 600px;
+  padding: 0 20px;
+}
+
+.skill-name{
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+.skill-bar{
+  height: 20px;
+  background: #cacaca;
+  border-radius: 8px;
+}
+
+.skill-per{
+  height: 20px;
+  background-color: #0fbcf9;
+  border-radius: 8px;
+  width: 20px;
+  transition: 5s linear;
+  position: relative;
+}
+
+.skill-per::before{
+	 size: 30px;
+  content: attr(per);
+  position: absolute;
+  padding: 10px 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 10px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-per::after{
+
+  content: '';
+  position: absolute;
+ 
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  top: -10px;
+  right: 0;
+  transform: translateX(50%) rotate(45deg);
+  border-radius: 10px;
+}
+
+
+
+/*CONTACT FORM*/
+
+
+.contactform{
+	background-color: white;
+  margin: 0%;
+  padding: 0;
+  margin-top: 10%;
+  /*font-family: "roboto", cursive;*/
+
+ /* margin-top: 13%;*/
+}
+
+.contact-section h3{
+  text-align: center;
+  color: #ddd;
+}
+/*.border{
+  width: 100px;
+  height: 10px;
+  background: #34495e;
+  margin: 40px auto;
+}*/
+
+.contact-form{
+  max-width: 600px;
+  margin: auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 16px 0;
+  border: 0;
+  background: #111;
+  padding: 20px 40px;
+  outline: none;
+  color: #ddd;
+  transition: 0.5s;
+}
+.contact-form-text::focus{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+}
+.contact-form-btn{
+	margin: 0 0 30px 0;
+  float: right;
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #2980b9;
+}
+
+.contacth3{
+	margin-top: 5%;
+	text-align: center;
+}
